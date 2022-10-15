@@ -149,6 +149,15 @@ echo ''
 echo 'bash ~/cutefish-launcher.sh & cutefish-session' > ~/.xinitrc
 fetch https://0x0.st/ov0i.sh
 mv ./ov0i.sh ~/cutefish-launcher.sh
+cd /tmp/cutefish
+git clone https://github.com/cutefishos/kwin-plugins
+cd kwin-plugins
+mkdir build
+cd build
+cmake ..
+make
+make install
+cd /tmp/cutefish
 echo ''
 echo 'The installation is almost finished, but you have to do the last step by yourself!'
 echo ''
