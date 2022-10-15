@@ -5,7 +5,7 @@
 echo ''
 echo 'Reminder: make sure you run this script as root!'
 echo 'This script is supposed to be ran on a clean install of FreeBSD with GPU drivers installed.'
-echo 'This script will overwrite your shell rc files, make a backup of them if you have any modifications in it!'
+echo 'It will overwrite your .xinitrc file, so make sure to back it up in case you have any other DE installed.'
 echo ''
 echo 'Starting in 10 seconds'
 echo ''
