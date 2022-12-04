@@ -1,4 +1,4 @@
-# cutefish-freebsd
+<img src="https://static1.textcraft.net/data1/e/b/eb96e8f8223d7bf5ce757ec23ac43bfdf9c733c4da39a3ee5e6b4b0d3255bfef95601890afd80709da39a3ee5e6b4b0d3255bfef95601890afd80709617e979a8dfb9daf05be60e59b5bc0b0.png"></img>
 A low-quality port of the Cutefish desktop environment for FreeBSD<br>
 Some components are modified to strip NetworkManager and BlueZ code, the parts using these will be somewhat broken (Control Center, some tabs in the Settings app)<br>
 ```diff
